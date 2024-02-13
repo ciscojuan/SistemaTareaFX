@@ -1,33 +1,62 @@
-HELP.md
+# Generated files
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-
-### STS ###
-.apt_generated
+bin/
 .classpath
-.factorypath
 .project
-.settings
-.springBeans
-.sts4-cache
+.settings/
+.metadata/
+*.log
+*.tmp
+*.bak
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# Eclipse specific
+.lock/
+.externalToolBuilders/
+
+# IDE preferences
+idea/
+.idea/
+
+# Spring Boot specific
+.mvn/
 *.iml
+**/node_modules/
+
+# Maven specific
+.m2/repository/
+
+# Dependency lock files
+**/pom.xml.lock
+
+# Test related files
+**/surefire-reports/
+**/allure-results/
+
+# Local configurations
+.env
+application.properties
+local.properties
+
+# IDE generated settings
+**/settings.xml
+
+# OS specific files
+.DS_Store
+
+# IntelliJ IDEA specific
+.idea/
+*.iws
 *.ipr
+*.iim
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
+# VSCode specific
 .vscode/
+
+# Build tools specific
+build/
+gradle/
+**/build/
+
+# Other IDEs
+.sublime-project
+.sublime-workspace
